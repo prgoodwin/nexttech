@@ -28,7 +28,7 @@ nav {
   padding: 0px;
   display: flex;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 25px;
   margin: 30px;
 }
 
@@ -49,6 +49,10 @@ nav {
   font-weight: 300;
   font-size: 1.25rem;
   margin: 0px;
+}
+
+.form--wrapper {
+  padding: 5px 20px;
 }
 
 /* :root {
