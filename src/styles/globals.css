@@ -9,12 +9,11 @@ nav {
   flex-direction: row;
   margin-bottom: 10px;
   align-items: center;
-  box-shadow: 5px 1px;
+  box-shadow: 5px 1px black;
 }
 
 .article {
   background-color: white;
-  padding: 20px;
 }
 
 .nav--menu {
@@ -37,22 +36,30 @@ nav {
   margin-left: auto;
 }
 
+.article--header{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  box-shadow: 5px 1px lightgrey;
+  padding: 30px;
+}
+
 .article--title {
   font-weight: 700;
   font-size: 1.9375rem;
   font-style: italic;
   line-height: 2.25rem; 
-  margin: 0px;
+  margin: 0px auto 0px auto;
 }
 
-.article--summary {
+.article--date {
   font-weight: 300;
   font-size: 1.25rem;
-  margin: 0px;
+  margin: 0px auto 0px auto;
 }
 
-.form--wrapper {
-  padding: 5px 20px;
+.article--body{
+  padding: 20px;
 }
 
 /* :root {

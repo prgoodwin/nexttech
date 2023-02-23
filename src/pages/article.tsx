@@ -1,9 +1,11 @@
 
 export default function article(){
     return (
-        <div className="article"> 
-            <p className="article--title">Letters from an American</p>
-            <p className="article--summary">Febuary 6, 2023</p>
+        <div className="article">
+            <div className="article--header">
+                <p className="article--title">Letters from an American</p>
+                <p className="article--date">Febuary 6, 2023</p>
+            </div>
             <p className="article--body">
                 The Chinese spy balloon shot down off South Carolina on Saturday after spending four days in U.S. airspace will almost certainly make the history books but not because, by itself, it is a hugely significant factor in the changing relationship between the U.S. and China under President Joe Biden. The reason the balloon will be remembered in the future is that the Republican response to it has been so completely unrelated to reality, and has been so magnified by the media, that it has provided a window into the dysfunction of modern politics.
                 <br></br><br></br>
@@ -39,16 +41,6 @@ export default function article(){
                 <br></br><br></br>
                 Finally, thousands are dead from the 7.8 magnitude earthquake and its strong aftershocks in Turkey and Syria last night. Biden has spoken to President Recep Tayyip Erdoğan of Turkey and pledged to support our NATO ally. U.S. teams will help search and rescue teams, as well as coordinate other assistance.
             </p>
-
-            <h1>To-do list</h1>
-            <ul>
-                <li>fix navbar and add buttons? // figure out what top should like</li>
-                <li>format better within the margins</li>
-                <li>fix spacing of the article</li>
-                <li>building a form for responses on the bottom?</li>
-                <li>importing in fonts, should use nyt imperial?</li>
-                <li>thinking about how this works on phone</li>
-            </ul>
         </div>
     )
 }
