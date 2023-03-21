@@ -4,17 +4,10 @@ import { useState } from 'react'
 const button = () => {
     const [open, setOpen] = useState(true)
 
-    function helpClicked(){
-        console.log("button clicked")
-        setOpen(prevState =>
-            !prevState
-        )
-    }
-
     return (
-        <div className="button">
-            <button onClick={() => setOpen(!open)}>WORKING BUTTN</button>
-            {open && <h1 className="button--help" onClick={() => setOpen(false)}>If you have any questions please ask!</h1>}
+        <div className="nav--help">
+            {!open && <button className="button--img" onClick={() => setOpen(!open)}><img src="icons8-question-mark-24.png" className="button--icon"/></button>}
+            {open && <p className="button--help" onClick={() => setOpen(false)}>If you have any questions please ask!</p>}
         </div>
     )
 }
