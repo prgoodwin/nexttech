@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 const button = () => {
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
 
     return (
         <div className="nav--help">

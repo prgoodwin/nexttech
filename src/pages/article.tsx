@@ -3,7 +3,8 @@ export default function article(){
     return (
         <div className="article">
             <div className="article--header">
-                <p className="article--title">Letters from an American</p>
+                <p className="article--title">Letters from an</p>
+                <p className="article--title">American</p>
                 <p className="article--date">Febuary 6, 2023</p>
             </div>
             <p className="article--body">
