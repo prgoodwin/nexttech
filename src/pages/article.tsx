@@ -5,7 +5,6 @@ export default function article(){
             <div className="article--header">
                 <p className="article--title">Letters from an</p>
                 <p className="article--title">American</p>
-                <p className="article--date">Febuary 6, 2023</p>
             </div>
             <p className="article--body">
                 The Chinese spy balloon shot down off South Carolina on Saturday after spending four days in U.S. airspace will almost certainly make the history books but not because, by itself, it is a hugely significant factor in the changing relationship between the U.S. and China under President Joe Biden. The reason the balloon will be remembered in the future is that the Republican response to it has been so completely unrelated to reality, and has been so magnified by the media, that it has provided a window into the dysfunction of modern politics.
