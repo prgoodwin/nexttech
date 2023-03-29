@@ -48,6 +48,7 @@ nav {
 .article--body{
   padding: 20px;
   font-size: 18px;
+  line-height: 25px;
 }
 
 .button--img {
@@ -61,5 +62,6 @@ nav {
 
 .button--help {
   width: 100px;
-  border: 2px dotted lightgrey;
+  border: 2px solid black;
+  border-radius: 10px;
 }
